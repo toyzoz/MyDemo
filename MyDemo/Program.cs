@@ -2,7 +2,7 @@ var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddRazorPages();
-builder.WebHost.UseUrls("http://*:50002");
+builder.WebHost.UseUrls("http://*:50003");
 
 
 var app = builder.Build();
